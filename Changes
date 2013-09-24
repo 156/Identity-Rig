@@ -1,0 +1,6 @@
+Revision history for Perl extension Identity::Rig.
+
+0.1  Tue Sep 24 03:30:23 2013
+	- original version; created by h2xs 1.23 with options
+		-XAn Identity::Rig -v 0.1
+
