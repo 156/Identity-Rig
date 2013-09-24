@@ -70,6 +70,25 @@ sub generate
 	return 1;
 }
 
+sub get_ircnick
+{
+	my $a=intr(rand(4));
+	my $b=intr(rand(4));
+	my $c = intr(rand(4));
+	
+	my $aa = substr($first, 0, $a+2);
+	my $bb = substr($last, 0, $b+1);
+	
+	my $ircnick = $aa . $bb;
+	
+	$ircnick .= $c if ($c <= 2);
+	
+	return $ircnick;
+
+}
+
+sub intr {int(sprintf("%.0f",shift))}
+
 1;
 __END__
 

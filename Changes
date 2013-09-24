@@ -4,3 +4,5 @@ Revision history for Perl extension Identity::Rig.
 	- original version; created by h2xs 1.23 with options
 		-XAn Identity::Rig -v 0.1
 
+0.2	- first revision
+		-added support for get_ircnick (generates a semi realistic nickname for irc, will add dictionary later)
